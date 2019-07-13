@@ -42,7 +42,6 @@ function loser(){
 }
 $("#image1").on("click", function(){
     total = total + num1;
-   // console.log("Your total is: " + total);
     $("#time").text("Your lap time is: " +total) ;
    var result="Your lap time is:" + total;
     if(total === randomNumber){
@@ -55,7 +54,6 @@ $("#image1").on("click", function(){
 
 $("#image2").on("click", function(){
     total = total + num2;
-    //console.log("Your total is: " + total);
    $("#time").text("Your lap time is: " + total);
    var result="Your lap time is:" + total;
     if(total === randomNumber){
@@ -67,7 +65,6 @@ $("#image2").on("click", function(){
 });
 $("#image3").on("click", function(){
     total = total + num3;
-    //console.log("Your total is: " + total);
     $("#time").text("Your lap time is: " + total);
     var result="Your lap time is:" + total;
     if(total === randomNumber){
@@ -79,7 +76,6 @@ $("#image3").on("click", function(){
 });
 $("#image4").on("click", function(){
     total = total + num4;
-    //console.log("Your total is: " + total);
     $("#time").text("Your lap time is: " + total);
   var result="Your lap time is:" + total;
     if(total === randomNumber){
