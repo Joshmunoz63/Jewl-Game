@@ -1,9 +1,35 @@
 .img{
     height: 200px;
-    width: 200px;
+    width: 150px;
 }
 
 .row{
     margin: 20px;
-    align-self: center;
+    margin-left: 200px;
+}
+
+body{
+    background-image: url(https://www.racingcircuits.info/assets/gallery/11/138.jpg);
+    background-size: cover;
+    font-family: 'Bangers', cursive;
+}
+
+.jumbotron{
+    height: 200px;
+    background-color: black;
+    color: skyblue;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#laptime{
+    padding-bottom: 85px;
+    font-size: 40px;
+}
+
+#wins{
+    font-size: 40px;
+}
+
+#losses{
+    font-size: 40px;
 }
